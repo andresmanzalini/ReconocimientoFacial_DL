@@ -26,18 +26,20 @@ A medida que mejora el dataset, mejor aprende el algoritmo.
 
 
 
-Prerrequisitos
+### Prerrequisitos
 
 Instalar requerimientos.txt y descargar los pesos del archivo dlib entrenado shape_predictor_68_face_landmarks.dat
 en https://github.com/davisking/dlib-models
 
 
 
-Instalacion de entorno virtual
-
+### Instalacion de entorno virtual
+```py
 conda create -n envReconocimientoFacial python
+```
+```py
 pip install -r requerimientos.txt
-
+```
 
 
 ### Ejemplo
