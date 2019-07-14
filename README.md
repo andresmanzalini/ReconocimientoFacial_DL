@@ -1,5 +1,5 @@
 
-Reconocimiento Facial con Deep Learning
+# Reconocimiento Facial con Deep Learning
 
 
 Implementacion de un sistema de reconocimiento facial con Deep Learning lo mas preciso posible...
@@ -21,7 +21,7 @@ Cuando termina de entrenar te muestra los resultados por pantalla. Al cerrarlos 
 
 Por ultimo, predecir resultados a partir de la camara web, con python usarModelo.py 
 
-Aclaracion: al principio con pocas imagenes de prueba en el dataset, el algoritmo no aprende bien.
+**Aclaracion**: al principio con pocas imagenes de prueba en el dataset, el algoritmo no aprende bien.
 A medida que mejora el dataset, mejor aprende el algoritmo.
 
 
@@ -40,15 +40,16 @@ pip install -r requerimientos.txt
 
 
 
-Ejemplo
-
-python detectarProcesar_cara.py Andres  ->  Saco ~X fotos
-
-python detectarProcesar_cara.py Martin  ->  Saco ~X fotos
-
+### Ejemplo
+```py
+python detectarProcesar_cara.py Andres
+```
+```
+python detectarProcesar_cara.py Martin 
+```
 ...
 
-lo hago algunas veces mas...por id
+lo hago algunas veces mas por id
 
 ...
 
@@ -56,11 +57,15 @@ Abro y ejecuto el jupyter notebook .ipynb para entender los pasos seguidos.
 
 Cuando tengo suficientes imagenes para identificar y un dataset balanceado, afino el modelo, defino los hiperparametros segun nuestro problema y ejecuto los scripts vinculados al modelo:
 
+```
 python entrenarModelo.py
+```
 
-Entrena modelo y lo guarda en formato .h5 en carpeta local
+Entrena modelo y lo guarda en formato .h5 en carpeta local.
 
+```
 python usarModelo.py
+```
 
 Usa modelo guardado en disco, y predice imagenes desde el disco o desde la camara web.
 
@@ -69,15 +74,15 @@ ver como subir fotos de muestra
 
 
 Este proyecto es la continuacion  de Deteccion de rostros con Machine learning.
-La idea era darle otro enfoque al problema de reconocimiento facial. No tanto desde el aprendizaje de los patrones por parte de la maquina, sino analizar lo que 've' desde las imagenes que capta, y como las divide en capas convolucionales y va 'aprendiendo' las caracteristicas explicitas e implicitas de las imagenes, que nosotros a simple vista no podemos captar. 
+La idea era darle otro enfoque al problema de reconocimiento facial. No tanto desde el aprendizaje de los patrones por parte de la maquina, sino analizar lo que 've' desde las imagenes que capta, y como las divide en capas convolucionales y va 'aprendiendo' las caracteristicas explicitas e implicitas de las imagenes, que nosotros a simple vista no podemos. 
 
 
 Hecho con
-Python in Jupyter Notebook, Anaconda 
+Python in Jupyter Notebook, Anaconda. 
 Keras
 
 
-License
+Licencia
 creditos a Keras
 licencia de dlib
 
