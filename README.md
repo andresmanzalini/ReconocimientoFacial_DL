@@ -3,16 +3,22 @@ Reconocimiento Facial con Deep Learning
 
 
 Implementacion de un sistema de reconocimiento facial con Deep Learning lo mas preciso posible...
+
 Partimos del modelo base provisto por Keras, la red neuronal VGG16, sin la ultima capa.
 Es posible afinarlo (fine tuning) para adaptarlo a nuestro problema, ajustando los hiperparametros y las ultimas capas densas segun nuestro dataset, dejando el modelo listo para entrenar. 
+
 Al finalizar el entrenamiento, muestra las metricas y guarda el modelo en formato .h5 en la carpeta local. 
 Podemos usarlo con la camara web.
 
 
 Para personalizar el problema el script detectarProcesar_cara.py se encarga de la deteccion, el preprocesamiento y la carga al dataset de las imagenes de la cara asociada a la identificacion.
+
 Ejecutar algunas veces por ID hasta lograr un dataset balanceado, con: detectarProcesar_cara.py ETIQUETA
+
 Ya con el dataset balanceado, podemos entrenar y lograr resultados aceptables con: python entrenarModelo.py
+
 Cuando termina de entrenar te muestra los resultados por pantalla. Al cerrarlos se guarda el modelo.
+
 Por ultimo, predecir resultados a partir de la camara web, con python usarModelo.py 
 
 Aclaracion: al principio con pocas imagenes de prueba en el dataset, el algoritmo no aprende bien.
