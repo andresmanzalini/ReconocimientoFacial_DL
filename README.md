@@ -30,13 +30,15 @@ conda create -n envReconocimientoFacial python
 pip install -r requerimientos.txt
 
 
-Give the example
-python detectarProcesar_cara.py Andres 
-Saco ~20 fotos
-python detectarProcesar_cara.py Martin
-Saco ~20 fotos
+Ejemplo
+
+python detectarProcesar_cara.py Andres  ->  Saco ~X fotos
+python detectarProcesar_cara.py Martin  ->  Saco ~X fotos
+
 ...
+
 lo hago algunas veces mas...por id
+
 ...
 
 Abro y ejecuto el jupyter notebook .ipynb para entender los pasos seguidos.
@@ -49,7 +51,7 @@ Entrena modelo y lo guarda en formato .h5 en carpeta local
 
 python usarModelo.py
 
-Usa modelo guardado en disco, y predice imagenes, desde el disco o desde la camara web.
+Usa modelo guardado en disco, y predice imagenes desde el disco o desde la camara web.
 
 foto con ma
 foto con paula
@@ -59,10 +61,10 @@ foto con v
 
 
 Este proyecto es la continuacion  de Deteccion de rostros con Machine learning.
-La idea era darle otro enfoque al problema de reconocimiento facial. No tanto desde el aprendizaje de los patrones por parte de la maquina, sino analizar lo que 've' desde las imagenes quye capta y como las divide en capas convolucionales y va 'aprendiendo' las caracteristicas explicitas e implicitas de las imagenes, que nosotros a simple vista no podemos captar. 
+La idea era darle otro enfoque al problema de reconocimiento facial. No tanto desde el aprendizaje de los patrones por parte de la maquina, sino analizar lo que 've' desde las imagenes que capta, y como las divide en capas convolucionales y va 'aprendiendo' las caracteristicas explicitas e implicitas de las imagenes, que nosotros a simple vista no podemos captar. 
 
 
-Built With
+Hecho con
 Python in Jupyter Notebook, Anaconda 
 Keras
 
@@ -72,6 +74,5 @@ creditos a Keras
 licencia de dlib
 
 
-Inspiration
 La inspiracion surgio al darme cuenta que las computadoras y celulares tienen demasiado acceso a nosotros y a nuestra vida personal. Por lo tanto, obtienen una perspectiva mas completa y exacta de nostros mismos de la que ni nos podemos imaginar. 
 Por suerte los dispostivos personales aun no soportan la carga computacional para funcionar asi en tiempo real, pero los algoritmos que controlan nuestro historial si.
