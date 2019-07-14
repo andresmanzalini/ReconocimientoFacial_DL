@@ -25,20 +25,25 @@ Aclaracion: al principio con pocas imagenes de prueba en el dataset, el algoritm
 A medida que mejora el dataset, mejor aprende el algoritmo.
 
 
+
 Prerrequisitos
-requerimientos.txt < keras, tensorflow, numpy, opencv, dlib
-y descargar los pesos del archivo dlib entrenado shape_predictor_68_face_landmarks.dat
+
+Instalar requerimientos.txt y descargar los pesos del archivo dlib entrenado shape_predictor_68_face_landmarks.dat
 en https://github.com/davisking/dlib-models
 
 
+
 Instalacion de entorno virtual
+
 conda create -n envReconocimientoFacial python
 pip install -r requerimientos.txt
+
 
 
 Ejemplo
 
 python detectarProcesar_cara.py Andres  ->  Saco ~X fotos
+
 python detectarProcesar_cara.py Martin  ->  Saco ~X fotos
 
 ...
@@ -59,10 +64,7 @@ python usarModelo.py
 
 Usa modelo guardado en disco, y predice imagenes desde el disco o desde la camara web.
 
-foto con ma
-foto con paula
-foto mia etiquetado, junto a martin
-foto con v
+ver como subir fotos de muestra
 
 
 
