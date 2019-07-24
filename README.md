@@ -68,7 +68,7 @@ python usarModelo.py
 Usa modelo guardado en disco, y predice imagenes desde el disco o desde la camara web.
 
 ver como subir fotos de muestra
-
+![Imagenes de prueba](/imagenes/Yo_V.jpg)
 
 
 Este proyecto es la continuacion  de Deteccion de rostros con Machine learning.
