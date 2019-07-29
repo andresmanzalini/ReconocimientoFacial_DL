@@ -2,8 +2,7 @@
 # Reconocimiento Facial con Deep Learning
 
 
-Partimos del modelo base provisto por Keras, la red neuronal VGG16, sin la ultima capa.
-Es posible afinarlo (fine tuning) para adaptarlo a nuestro problema ajustando los hiperparametros y las ultimas capas densas segun nuestro dataset. 
+Partiendo del modelo base provisto por Keras, la red neuronal VGG16 sin la ultima capa, es posible afinarlo (fine tuning) y asi adaptarlo a nuestro problema ajustando los hiperparametros y las ultimas capas densas segun nuestro dataset. 
 
 Para personalizar el problema el script detectarProcesar_cara.py se encarga de la deteccion, el preprocesamiento y la carga al dataset de las imagenes de la cara asociada a la identificacion.
 
