@@ -4,7 +4,7 @@
 
 Partiendo del modelo base provisto por Keras, la red neuronal VGG16 sin la ultima capa, es posible afinarlo (fine tuning) y asi adaptarlo a nuestro problema, ajustando los hiperparametros y las ultimas capas densas segun nuestro dataset. 
 
-Para personalizar el problema el script detectarProcesar_cara.py se encarga de la deteccion, el preprocesamiento y la carga al dataset de las imagenes de la cara asociada a la identificacion.
+El script detectarProcesar_cara.py se encarga de la deteccion, el preprocesamiento y la carga al dataset de las imagenes de la cara asociada a la identificacion pasada por parametro.
 
 Con el dataset balanceado, podemos entrenar y lograr resultados aceptables.
 
@@ -43,13 +43,9 @@ python detectarProcesar_cara.py Ma
 ```
 python detectarProcesar_cara.py V 
 ```
-...
 
-lo hago algunas veces mas por id
+Ejecutar el jupyter notebook .ipynb para entender los pasos seguidos.
 
-...
-
-Abro y ejecuto el jupyter notebook .ipynb para entender los pasos seguidos.
 
 Cuando haya suficientes imagenes para identificar en un dataset balanceado, afinamos el modelo, definimos los hiperparametros segun el problema y ejecutamos los scripts vinculados al modelo:
 
