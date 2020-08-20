@@ -4,7 +4,7 @@
 
 Se analizan los modelos provistos por Keras, el VGG16 e Inception, obteniendo mejores resultados con el primero. 
 
-La red neuronal VGG16 es posible afinarlo (fine tuning) quitandole la ultima capa  y adaptandolo a nuestro problema, ajustando los hiperparametros y las ultimas capas densas de acuerdo a nuestro dataset. 
+La red neuronal VGG16 es posible afinarla (fine tuning) quitandole la ultima capa y adaptandolo a nuestro problema, ajustando los hiperparametros y las ultimas capas densas de acuerdo a nuestro dataset y a las imagenes que querramos detectar. 
 
 El script detectarProcesar_cara.py se encarga de la deteccion, el preprocesamiento y la carga al dataset de las imagenes de la cara asociada a la identificacion pasada por parametro.
 
@@ -15,13 +15,13 @@ Cuando termina de entrenar muestra los resultados por pantalla. Al cerrarlos se 
 Por ultimo, predecir resultados a partir de la camara web. 
 
 **Aclaracion**: al principio con pocas imagenes de prueba en el dataset, el algoritmo no aprende bien.
-A medida que mejora el dataset, mejor aprende el algoritmo.
+A medida que mejora el dataset, mejora el algoritmo.
 
 
 
-### Prerrequisitos
+### Requerimientos
 
-Instalar requerimientos.txt y descargar los pesos del archivo dlib entrenado shape_predictor_68_face_landmarks.dat
+Instalar requerimientos.txt y descargar el modelo dlib preentrenado shape_predictor_68_face_landmarks.dat
 en https://github.com/davisking/dlib-models
 
 
@@ -51,6 +51,7 @@ python detectarProcesar_cara.py Lu
 ```
 python detectarProcesar_cara.py V 
 ```
+
 
 Ejecutar el jupyter notebook .ipynb para entender los pasos seguidos.
 
