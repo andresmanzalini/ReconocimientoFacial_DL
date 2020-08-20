@@ -72,7 +72,9 @@ Usa modelo guardado en disco, y predice imagenes desde la camara web.
 
 ![Con Ma](/imagenes/ConMa.png)
 
-![Con las chicas](/imagenes/Lu_Pau_Yo.png)
+![Con las chicas](/imagenes/Yes.png)
+
+![Bestia](/imagenes/Sape.png)
 
 ![Con el Vivi](/imagenes/Yo_V.png)
 
