@@ -2,7 +2,9 @@
 # Reconocimiento Facial con Deep Learning
 
 
-Partiendo del modelo base provisto por Keras, la red neuronal VGG16 sin la ultima capa, es posible afinarlo (fine tuning) y asi adaptarlo a nuestro problema, ajustando los hiperparametros y las ultimas capas densas segun nuestro dataset. 
+Se analizan los modelos provistos por Keras, el VGG16 e Inception, obteniendo mejores resultados con el primero. 
+
+La red neuronal VGG16 es posible afinarlo (fine tuning) quitandole la ultima capa  y adaptandolo a nuestro problema, ajustando los hiperparametros y las ultimas capas densas de acuerdo a nuestro dataset. 
 
 El script detectarProcesar_cara.py se encarga de la deteccion, el preprocesamiento y la carga al dataset de las imagenes de la cara asociada a la identificacion pasada por parametro.
 
@@ -41,6 +43,12 @@ python detectarProcesar_cara.py Andres
 python detectarProcesar_cara.py Ma 
 ```
 ```
+python detectarProcesar_cara.py Paula
+```
+```
+python detectarProcesar_cara.py Lu 
+```
+```
 python detectarProcesar_cara.py V 
 ```
 
@@ -59,11 +67,12 @@ Entrena modelo y lo guarda en formato .h5 en carpeta local.
 python usarModelo.py
 ```
 
-Usa modelo guardado en disco, y predice imagenes desde el disco o desde la camara web.
+Usa modelo guardado en disco, y predice imagenes desde la camara web.
 
 
 ![Con Ma](/imagenes/ConMa.png)
 
+![Con las chicas](/imagenes/Lu_Pau_Yo.png)
 
 ![Con el Vivi](/imagenes/Yo_V.png)
 
