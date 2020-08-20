@@ -81,7 +81,8 @@ Usa modelo guardado en disco, y predice imagenes desde la camara web.
 
 
 Este proyecto es la continuacion  de Deteccion de rostros con Machine learning.
-La idea era darle otro enfoque al problema de reconocimiento facial. No tanto desde el aprendizaje a la fuerza bruta por parte de las maquinas, sino analizar lo que 've' desde las imagenes que capta, y como las divide en capas convolucionales y va 'aprendiendo' las caracteristicas explicitas e implicitas de las imagenes, que nosotros a simple vista no podemos. 
+La idea era darle otro enfoque al problema de reconocimiento facial. No tanto desde el aprendizaje a la fuerza bruta pixel a pixel por parte de las maquinas, sino analizar lo que la maquina interpreta desde las imagenes que capta, y como las divide en capas convolucionales y va 'aprendiendo' las caracteristicas explicitas e implicitas de las imagenes, que nosotros a simple vista no podemos. 
+
 
 
 Hecho con
