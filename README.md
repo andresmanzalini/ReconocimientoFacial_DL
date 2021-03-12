@@ -76,6 +76,7 @@ python usarModelo.py
 
 Usa modelo guardado en disco, y predice imagenes desde la camara web.
 
+![Con Pred1](/imagenes/prediccion1.png)
 
 ![Con Ma](/imagenes/ConMa.png)
 
