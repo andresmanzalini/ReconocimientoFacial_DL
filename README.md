@@ -70,6 +70,10 @@ python entrenarModelo.py
 
 Entrena modelo y lo guarda en formato .h5 en carpeta local.
 
+![Accy](/imagenes/accuracy.png)
+
+![Loss](/imagenes/loss.png)
+
 ```
 python usarModelo.py
 ```
