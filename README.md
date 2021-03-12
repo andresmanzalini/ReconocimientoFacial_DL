@@ -56,8 +56,14 @@ python detectarProcesar_cara.py V
 Ejecutar el jupyter notebook .ipynb para entender los pasos seguidos.
 
 
+El modelo es una extension del VGG16, con buenos resultados de precision
+
+![Secuen](/imagenes/secuencia.png)
+
+
 Cuando haya suficientes imagenes para identificar en un dataset balanceado, afinamos el modelo, definimos los hiperparametros segun el problema y ejecutamos los scripts vinculados al modelo:
 
+![Arqui](/imagenes/cara+arquitectura.png)
 ```
 python entrenarModelo.py
 ```
